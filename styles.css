@@ -201,6 +201,7 @@ body {
 .experiences__company-project {
   margin-left: 15px;
   margin-bottom: 25px;
+  position: relative;
 }
 
 .experiences__company-project-role {
@@ -214,6 +215,20 @@ body {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
+}
+
+.experiences__company-project-link {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: -2px;
+  left: 200px;
+  cursor: pointer;
+}
+
+.experiences__company-project-svg {
+  width: 32px;
+  height: 32px;
 }
 
 .experiences__company-project-responsibilities {
