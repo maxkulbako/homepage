@@ -170,6 +170,7 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    width: fit-content;
 }
 
 /* Experience and additional info styles */
