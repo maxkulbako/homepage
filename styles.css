@@ -290,3 +290,35 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.interests__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.interests {
+  display: flex;
+  justify-content: start;
+}
+
+.interests__icon-wrapper {
+  margin-right: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.interests__icon {
+  height: 1.1428rem;
+  vertical-align: text-bottom;
+}
+
+.interests__icon path {
+  fill: var(--text-decoration-color);
+}
+
+.interests_text {
+  color: var(--secondary-text-color);
+  text-align: justify;
+}
